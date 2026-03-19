@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
         public string Name { get; set; } = default!;
-        public decimal Price { get; set; }
+        public double Price { get; set; }
         public Uri Image { get; set; } = default!;
 
     }

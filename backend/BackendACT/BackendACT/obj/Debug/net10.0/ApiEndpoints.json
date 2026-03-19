@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "backend.Controllers.ProductsController",
+    "ContainingType": "BackendACT.Controllers.ProductsController",
     "Method": "Get",
     "RelativePath": "api/Products",
     "HttpMethod": "GET",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "ContainingType": "backend.Controllers.ProductsController",
+    "ContainingType": "BackendACT.Controllers.ProductsController",
     "Method": "Post",
     "RelativePath": "api/Products",
     "HttpMethod": "POST",
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "ContainingType": "backend.Controllers.ProductsController",
+    "ContainingType": "BackendACT.Controllers.ProductsController",
     "Method": "Get",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "GET",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "ContainingType": "backend.Controllers.ProductsController",
+    "ContainingType": "BackendACT.Controllers.ProductsController",
     "Method": "Put",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "PUT",
@@ -93,7 +93,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "backend.Controllers.ProductsController",
+    "ContainingType": "BackendACT.Controllers.ProductsController",
     "Method": "Delete",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "DELETE",
