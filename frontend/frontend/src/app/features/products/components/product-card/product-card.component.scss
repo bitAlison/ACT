@@ -1,0 +1,16 @@
+.card {
+  border-radius: 12px;
+  transition: 0.3s;
+  margin: 50px;
+  padding: 50px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: scale-down;
+}

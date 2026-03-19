@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  Produtos
+  <span class="spacer"></span>
+  <button mat-raised-button color="accent" (click)="newProduct()">Novo</button>
+</mat-toolbar>
+
+<div class="container">
+  <app-product-card
+    *ngFor="let p of products"
+    [product]="p"
+    (deleted)="deleteProduct($event)">
+  </app-product-card>
+</div>

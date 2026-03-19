@@ -1,0 +1,12 @@
+<mat-card class="card">
+  <img mat-card-image [src]="product.image" />
+
+  <mat-card-title>{{ product.name }}</mat-card-title>
+  <mat-card-subtitle>R$ {{ product.price }}</mat-card-subtitle>
+
+  <mat-card-actions>
+    <button mat-button (click)="detailProduct()">Detalhe</button>
+    <button mat-button (click)="editProduct()">Editar</button>
+    <button mat-button color="warn" (click)="deleteProduct()">Excluir</button>
+  </mat-card-actions>
+</mat-card>

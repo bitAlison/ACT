@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+  Detalhe do Produto
+</mat-toolbar>
+
+<div class="detail-container" *ngIf="product">
+  <mat-card>
+    <img mat-card-image [src]="product.image" />
+
+    <div class="detail-info">
+      <mat-card-title>{{ product.name }}</mat-card-title>
+      <mat-card-content>
+        <p><strong>Preço:</strong> R$ {{ product.price }}</p>
+      </mat-card-content>
+    </div>
+    
+    <mat-card-actions>
+      <button mat-button (click)="backPage()">Voltar</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

@@ -37,7 +37,7 @@ namespace BackendACT.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Products>>> Get()
         {
-            return await _context.Products.ToListAsync();
+            return await _context.Products.Where(p => p.Id > 0 && !string.IsNullOrEmpty(p.Name) && !string.IsNullOrEmpty(p.Image.ToString())).ToListAsync();
         }
 
         /// <summary>
